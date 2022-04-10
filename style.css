@@ -282,3 +282,51 @@ main {
     border-radius: 8px;
   }
 }
+@media screen and (max-width: 430px) {
+  .name {
+    font-size: 1.2rem;
+  }
+
+  .player {
+    padding: 2rem;
+  }
+  .current-label {
+    font-size: 1.2rem;
+  }
+
+  .dice {
+    width: 3.8rem;
+  }
+
+  .btn--new {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 5.8rem;
+    height: 4rem;
+    font-size: 1.3rem;
+    border-radius: 10px;
+  }
+  .btn--roll {
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 6rem;
+    height: 4rem;
+    font-size: 1.3rem;
+    border-radius: 10px;
+  }
+
+  .btn--hold {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 6rem;
+    height: 4rem;
+    font-size: 1.3rem;
+    border-radius: 8px;
+  }
+}
