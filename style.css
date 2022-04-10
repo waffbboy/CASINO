@@ -135,3 +135,52 @@ main {
     background-color: rgb(252, 0, 0);
   }
 }
+
+@media screen and (max-width: 822px) {
+  .name {
+    font-size: 2.5rem;
+  }
+
+  .player {
+    padding: 3.5rem;
+  }
+  .current-label {
+    font-size: 2.2rem;
+  }
+
+  .dice {
+    width: 6rem;
+  }
+
+  btn--new {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+  }
+  btn--roll {
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+  }
+
+  .btn--hold {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 9rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    border-radius: 8px;
+  }
+}
