@@ -149,10 +149,10 @@ main {
   }
 
   .dice {
-    width: 6rem;
+    width: 8rem;
   }
 
-  btn--new {
+  .btn--new {
     position: absolute;
     top: 10%;
     left: 50%;
@@ -162,7 +162,7 @@ main {
     font-size: 1.5rem;
     border-radius: 10px;
   }
-  btn--roll {
+  .btn--roll {
     position: absolute;
     top: 73%;
     left: 50%;
@@ -181,6 +181,104 @@ main {
     width: 9rem;
     height: 4rem;
     font-size: 1.5rem;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (max-width: 666px) {
+  .name {
+    font-size: 2rem;
+  }
+
+  .player {
+    padding: 2.8rem;
+  }
+  .current-label {
+    font-size: 1.5rem;
+  }
+
+  .dice {
+    width: 6rem;
+  }
+
+  .btn--new {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 9rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+  }
+  .btn--roll {
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 9rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+  }
+
+  .btn--hold {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 9rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .name {
+    font-size: 1.5rem;
+  }
+
+  .player {
+    padding: 2.8rem;
+  }
+  .current-label {
+    font-size: 1.4rem;
+  }
+
+  .dice {
+    width: 4.5rem;
+  }
+
+  .btn--new {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 8rem;
+    height: 4rem;
+    font-size: 1.4rem;
+    border-radius: 10px;
+  }
+  .btn--roll {
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 8rem;
+    height: 4rem;
+    font-size: 1.4rem;
+    border-radius: 10px;
+  }
+
+  .btn--hold {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 8rem;
+    height: 4rem;
+    font-size: 1.4rem;
     border-radius: 8px;
   }
 }
